@@ -1,5 +1,5 @@
 # deep-learning-life-sciences-code
-Code Samples for the book: Deep Learning for the Life Sciences
+Code Samples for the book: [Deep Learning for the Life Sciences](https://amzn.to/3audBIt)
 
 ## Installation
 
