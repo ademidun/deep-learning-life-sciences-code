@@ -2,3 +2,5 @@
 env/
 condaenv/
 .DS_Store
+
+chapter_3/MNIST_DATA/
