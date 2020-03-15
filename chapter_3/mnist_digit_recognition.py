@@ -75,7 +75,7 @@ def create_model():
     model.add_output(output)
 
     # if our model takes long to train, reduce nb_epoch to 1
-    model.fit(train_dataset,nb_epoch=10)
+    model.fit(train_dataset,nb_epoch=1)
 
     # our metric is accuracy, the fraction of labels that are accurately predicted
     metric = dc.metrics.Metric(dc.metrics.accuracy_score)
