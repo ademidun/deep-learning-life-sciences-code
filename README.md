@@ -134,4 +134,15 @@ model figure out the features of the molecule
 the molecule's conformation
 - so it works best for small, rigid molecules, Chapter 5 looks at methods for large, flexible molecules
 
- 
+ ### SMARTS Strings
+ - [MoleculeNet](http://moleculenet.ai) is a dataset for molecular machine learing
+ - Ranching from low level quantum mechanics interactions between atoms
+ - to highlevel interactions in human body like toxicity and side effects 
+ - SMARTS string are useful if you want to see if atoms in a molecule match a pattern:
+    - Searching a molecular databse to see if a particular substructure exists
+    - aligning a set of molecules on common substructure to improve visualization
+- SMARTS string is like regular expression for regular languages
+- So "foo*.bar" will match "foo.bar" and "foo3.bar"
+- Similarly "CCC" will match sequences of three adjacent aliphatic carbon atoms
+(aliphatic means containing carbon and hydrogen joined together in a straight line)
+- 

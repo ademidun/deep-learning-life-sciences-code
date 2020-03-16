@@ -28,6 +28,10 @@ def create_predict_solubility_model():
     train_scores = model.evaluate(train_dataset, [metric], transformers)
     test_scores = model.evaluate(test_dataset, [metric], transformers)
 
+    # the train scores are higher than our test scores which shows us that our model has been overfit
+    print(f'train_scores: {train_scores}')
+    print(f'test_scores: {test_scores}')
+
     return model
 
 def run():
